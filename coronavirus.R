@@ -183,7 +183,7 @@ plot_scenario = function(scenario){
   
   fail = ''
   if (max_in_ICU >COVID_ICU_capacity) {
-    fail = 'Health CARE FAIL!'
+    fail = 'HEALTH CARE FAIL!'
   }
   
   p = ggplot(df.long.scenarios[[scenario]], aes(x = day, y = value, fill = feature, color = feature)) +
